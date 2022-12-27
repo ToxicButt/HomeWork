@@ -2,7 +2,10 @@
 
 a = {}
 for i in range(0, int(input())):
-    a[i] = input({"name:"}) +"@"+ input({"email:"})
+    a[i] = {}
+    a[i]['name'] = input({'name'})
+    a[i]['email'] = input({'email'})
+
     print(a)
 
 #print(slovar)
