@@ -1,11 +1,10 @@
-#slovar = {i:(i(input("name"))+"@"+input("email")) for i in range(0, int(input()))}
 
-a = {}
+prev = {}
 for i in range(0, int(input())):
-    a[i] = {}
-    a[i]['name'] = input({'name'})
-    a[i]['email'] = input({'email'})
+    prev[i] = {}
+    prev[i]['name'] = input({'name'})
+    prev[i]['email'] = input({'email'})
 
-    print(a)
+    print(prev)
 
-#print(slovar)
+
