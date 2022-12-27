@@ -9,4 +9,3 @@
 
 slovar = {i:{"name": input({"name"}), "email": input({"email"})} for i in range(0, int(input()))}
 print(slovar)
-print(slovar)
