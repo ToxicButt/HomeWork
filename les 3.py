@@ -1,2 +1,8 @@
-serv = [i for i in range(1,21) if i % 5==0]
-print(serv)
+#slovar = {i:(i(input("name"))+"@"+input("email")) for i in range(0, int(input()))}
+
+a = {}
+for i in range(0, int(input())):
+    a[i] = input({"name:"}) +"@"+ input({"email:"})
+    print(a)
+
+#print(slovar)
