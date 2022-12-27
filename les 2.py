@@ -1,2 +1,2 @@
-perv = {word:len(word) for word in [input("")]}
+perv = {i: len(i) for i in {input("")}}
 print(perv)
