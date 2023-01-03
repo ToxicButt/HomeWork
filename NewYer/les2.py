@@ -1,5 +1,5 @@
-number_1 = int(input("Введи число: "))
 deystv = input("Введи знак действия, например: + - * / : ")
+number_1 = int(input("Введи число: "))
 number_2 = int(input("Введи второе число: "))
 # Сложение
 if deystv == '+':
