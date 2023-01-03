@@ -1,9 +1,6 @@
-n = int(input())
+meme = int(input())
 i = 1
-
-
-while i <= n:
-    if n % i == 0:
+while i <= meme:
+    if meme % i == 0:
         print(i)
     i +=1
-    
