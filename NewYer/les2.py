@@ -19,5 +19,3 @@ elif deystv == "/":
     print(number_1 / number_2)
 else:
     print("Ты ввел что-то не так, попробуй ещё раз")
-
-
