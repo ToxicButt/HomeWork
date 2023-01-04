@@ -138,7 +138,7 @@
 # for user in res:
 #     print(user)
 
-
+# ----- рекурсия
 # numbers = [1,2,3,4,5,6, [4,5,67,8,9,9,], 3,56,7,8,[3,4,6,7,8,6,4,],2,2,4,6,7,8,4,[5,5,7,8,42,],6,94,2,1,3]
 
 # def recurseve(numbers):
@@ -150,6 +150,57 @@
 #             res *= recurseve(number)
 #     return res
 # print(recurseve(numbers))
+
+
+# ------ декоратор
+# def mydickor(func):
+#     def wrapper(*args):
+#         for i in args:
+#             if not isinstance(i, (int, float)):
+#                 raise  TypeError
+#         return func(*args)
+#
+#     return wrapper
+#
+# @mydickor
+# def multiply (a, b):
+#     return a * b
+#
+# print(multiply(1,3))
+
+
+#
+# На вход функции, поступает строка, на ее основании сформировать
+# список, который будет содержать только слова, длина которых >=5
+
+
+# numbers = input("")
+# numbers = list(filter(lambda x: len(x) >=5, numbers.split()))
+# print(numbers)
+#
+
+#  Написать функцию generate_password принимающая на вход 2 аргумента
+# имя ресурса, длина пароля, функция должна генерировать пароль указанной длины
+# с использованием букв и цифр и записывать его в глобальный словарь passwords
+# имя ресурса - ключ, пароль - значения.
+# from random import choice
+
+
+#
+# from random import choice, randint
+# from string import ascii_letters, digits
+#
+# import password as password
+#
+#
+# def generate_password(name, length):
+#     password = ""
+#     symbol = "qwertyuiopasdfghjklzxcvbnm,./[]';QWERYUIOP{{}ASDFGHJKL:ZXCVBNM<>?"
+#     for _ in range(length):
+#         password += choice(ascii_letters + digits)
+#         password[name] = password
+# generate_password("telega",10)
+# print(password)
 
 
 
