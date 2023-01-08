@@ -194,13 +194,73 @@
 #
 #
 # def generate_password(name, length):
-#     password = ""
-#     symbol = "qwertyuiopasdfghjklzxcvbnm,./[]';QWERYUIOP{{}ASDFGHJKL:ZXCVBNM<>?"
+#
 #     for _ in range(length):
 #         password += choice(ascii_letters + digits)
 #         password[name] = password
 # generate_password("telega",10)
 # print(password)
+#
+# def sayhello():
+#     print("hello")
+#     print("boop")
+#     print("and everbode")
+#
+# def square(x):
+#     print('Квадрат числа',x,'=',x**2)
+# for i in range(1,11):
+#     square(i)
+#
+#
+# def toxic(a,b):
+#     return a + b
+#
+# print(toxic("abc","wmn"))
 
-
-
+# turtle.title("Turtle Drawing")
+# circle = turtle.Turtle()
+# circle.shape("turtle")
+# circle.pensize(5)
+# circle.pencolor("cyan")
+#
+# circle.dot(20)
+# circle.penup()
+# circle.goto(0, -100)
+# circle.pendown()
+# circle.circle(100)
+# # turtle.exitonclick()
+# import turtle
+#
+# def pepes():
+#     turtle.left(90)
+#     turtle.pensize(10)
+#     turtle.penup()
+#     turtle.forward(100)
+#     turtle.pendown()
+#     turtle.pencolor("cyan")
+#     turtle.begin_fill()
+#     turtle.circle(70, 230)
+#     turtle.pensize(10)
+#     turtle.pencolor("cyan")
+#
+#     turtle.pencolor("cyan", )
+#     turtle.forward(140)
+#     turtle.seth(40)
+#     turtle.forward(135)
+#     turtle.pencolor("cyan")
+#     turtle.right(5)
+#     turtle.circle(70, 210)
+#     turtle.pencolor("black")
+#
+#     turtle.seth(30)
+#     turtle.fillcolor("cyan")
+#     turtle.end_fill()
+#     turtle.seth(-90)
+#     turtle.pencolor("cyan")
+#     turtle.pensize(3)
+#     turtle.forward(50)
+#     turtle.pencolor("black")
+#
+#     turtle.hideturtle()
+#     turtle.done()
+# pepes()
