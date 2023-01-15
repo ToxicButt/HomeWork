@@ -142,3 +142,61 @@
 #         raise StopIteration
 # prime = get_prime_number(5)
 # for number in prime:
+#========= 11 января Объекты и классы
+
+# class Person:
+#     #1 - step
+#     # def __new__(cls, *args, **kwargs):
+#     #     return cls()
+#     #2 - step конструктор
+#     def __int__(self, name):
+#         self.name = name.title()
+# vasya = Person(name = "Vasya")
+#
+# print(type(vasya))
+
+
+# class Student:
+#
+#     #---- описали конструктор класса
+#     def __init__(self, first_name, group, marks):
+#         self.marks = marks
+#         self.group = group
+#         self.first_name = first_name
+#
+#
+#     def __str__(self):
+#         return f'Student:{self.first_name=} {self.group=} {self.marks=}'
+#
+#     @staticmethod
+#     def student_sort(student: list["Student"]) -> list["Student"]:
+#         student.sort(key=lambda x: x.first_name)
+#         return student
+#
+#
+# yasya = Student("yasya", 2, [3,4,4,6])
+# masha = Student("keke", 3, [3,4,4,6])
+# caty = Student("lol", 1, [3,4,4,6])
+#
+# students = [yasya, masha, caty]
+# students = Student.student_sort(students)
+# for student in students:
+#     print(student.first_name)
+#
+#
+#
+
+
+# class Numbers:
+#     def __init__(self, numbers):
+#         self.numbers = numbers
+#     def average(self, numbers: list[int] = None):
+#         return sum(self.numbers) / len(self.numbers)
+#     def max_count(self):
+#         from collections import Counter
+#         numbers_counter = Counter(self.numbers)
+#         max_count_number = numbers_counter.most_common(n=1)[0][1]
+#         numbers = list(filter(lambda x: self.numbers.count(x) == max_count_number, self.numbers))
+#         return self.average(numbers)
+
+
